@@ -10,6 +10,66 @@ body {
   background-color: #f0f0f0;
 }
 
+/* math fact box*/
+#fact-box1{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #6496ed;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* english fact box */
+#fact-box2{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #dc143c;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* science fact box */
+#fact-box3{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #90ee90;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* history fact box */
+#fact-box4{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #ffa500;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* arts fact box */
+#fact-box5{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #9370cb;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* suprise fact box */
+#fact-box6{
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #ffc0cb;
+  margin: 20px auto;
+  background-color: white;
+}
+
 .button{ 
       border: none;
       color: white;
