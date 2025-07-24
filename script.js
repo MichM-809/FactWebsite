@@ -1,6 +1,66 @@
-let rFactsMat= ['fact1', 'fact2', 'fact3', 'fact4'];
-let rFactsEng= ['facta', 'factb', 'factc', 'factd'];
-let rFactsSci= ['fact9', 'fact8', 'fact7', 'fact6'];
+let rFactsMat= 
+['Forty is the only number with its letters in alphabetical order.', 
+ 'In a room with 23 people, there is a 50% chance that 2 people will have the same birthday.', 
+ 'Every odd number has the letter "e".', 
+ 'The symbol for division (÷) is called an obelus.',
+ 'A "Jiffy" is an acual unit of time. It is 1/100th of a second.',
+ 'Cicadas love prime numbers. They emerge from the ground every 13 or 17 years, both of which are prime numbers.',
+ 'The largest know prime number has over 40 million digits as of 2024.',
+ '2 is the only even prime number.',
+ 'The number 0 is the only number that cannot be represented by Roman numerals.',
+ 'The word "hundred" comes from the Old Norse word "hundrath," which means 120, not 100.',
+ `Most people's favorite number is 7.`,
+ 'A googol is the number 1 followed by 100 zeros, and a googolplex is 10 raised to the power of a googol.',
+ '7 is the only number from 1 to 10 that has 2 syllables.',
+ 'The phobia for the number 13 is called "triskaidekaphobia" and the phobia for friday the 13th is called "paraskevidekatriaphobia".',
+ 'The number 4 is considered unlucky in some cultures because it sounds like the word for "death" in Chinese.',
+ 'It is statistically safer to fly than to drive, with the odds of dying in a plane crash being 1 in 11 million, compared to 1 in 5,000 for car accidents.',
+ 'It is statistically safer to travel on friday the 13th than on any other day of the week, with fewer accidents reported on that day.',
+];
+
+let rFactsEng= 
+['Pneumonoultramicroscopicsilicovolcanoconiosis is the longest word that exists in the English dictionary and has 45 letters.',
+ 'The first English dictionary, “A Table Alphabeticall” was published in 1604 by Robert Cawdrey and contained only 2,543 words.', 
+ 'English is one of the few languages that capitalizes the first-person singular pronoun "I".',
+ 'The word "set" has the highest number of different meanings in the English language, with over 430 definitions.',
+ 'The word "bookkeeper" (and its variants) is the only unhyphenated English word with three consecutive double letters.',
+ 'The longest word in the English language without a vowel is "rhythms".',
+ 'The newest letter to be added to the English alphabet was "J" in the 16th century.',
+ 'The letter "E" is the most commonly used letter in the English language, appearing in about 11% of all words.',
+ 'The letters "ough" can be pronounced in at least 8 different ways.',
+ 'There are 24 dialects of English.',
+ 'The word "alphabet" comes from the first two letters of the Greek alphabet, "alpha" and "beta".',
+ 'The shortest grammatically correct sentence in English is "I am".',
+ 'A pangram is a sentence that contains every letter of the alphabet at least once, such as "The quick brown fox jumps over the lazy dog."',
+ 'The most commonly used word in the English language is "the".',
+ 'The dot on top of letters, such as "i" and "j", is called a tittle.',
+ 'The word for the day after tomorrow is "overmorrow".',
+ 'Every year, the Oxford English Dictionary adds around 1,000 new words.',
+ 'The word "typewriter" is the longest word that can be typed using only the top row of a keyboard.',
+ 'The word "queueing" contains five consecutive vowels.',
+ `There are many words in the English language that dont't rhyme with any other word, such as "purple", "silver", and "wolf".`
+];
+
+let rFactsSci= 
+['Approximately 2/3 of all the bird species are found in tropical rain forests.',
+ 'The human body contains about 60,000 miles of blood vessels, enough to circle the Earth more than twice.', 
+ 'Grasshoppers have ears in their bellies.', 
+ 'An individual blood cell takes about 60 seconds to make a complete circuit of the body.',
+ 'Hot water freezes faster than cold water under certain conditions. This is known as the Mpemba effect.',
+ "You can't taste food without saliva.",
+ 'The average cloud weighs about 1 million pounds.',
+ 'There are more trees on earth than stars in our galaxy.',
+ 'It is impossible to burp in space.',
+ 'Bats are the only mammals that can fly.',
+ "Bats don't get sick from most viruses (but they can still spread them).",
+ 'Alfred Nobel, the inventor of dynamite, was once mistakenly declared dead in a newspaper obituary. The obituary called him the "merchant of death" and prompted him to establish the Nobel Prizes.',
+ 'Giraffes prefer to sleep standing up, but they can also sleep lying down for short periods.',
+ 'Koalas are the only marsupials that have fingerprints similar to humans.',
+ 'About 20% of the oxygen we breathe is used by our brains.',
+ 'Octopuses have three hearts and blue blood.',
+ 'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.',
+];
+
 let rFactsHis= ['factz', 'facty', 'factx', 'factw'];
 let rFactsArt= ['fact-', 'fact=', 'fact$', 'fact*'];
 let rFactsSup= ['fact(', 'fact?', 'fact[', 'fact{'];
