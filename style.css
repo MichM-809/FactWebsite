@@ -98,6 +98,8 @@ body {
 }
 
 .button{ 
+  width: 180px;
+  height: 70px;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -105,7 +107,7 @@ body {
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 10px 17px;
+      margin: 20px 25px;
       cursor: pointer;
       transition-duration: 0.2s;
     }
