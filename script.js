@@ -7,7 +7,7 @@ let rFactsMat=
  'Cicadas love prime numbers. They emerge from the ground every 13 or 17 years, both of which are prime numbers.',
  'The largest know prime number has over 40 million digits as of 2024.',
  '2 is the only even prime number.',
- 'The number 0 is the only number that cannot be represented by Roman numerals.',
+ 'The number 0 is the only number that cannot be represented by Roman numerals.',   
  'The word "hundred" comes from the Old Norse word "hundrath," which means 120, not 100.',
  `Most people's favorite number is 7.`,
  'A googol is the number 1 followed by 100 zeros, and a googolplex is 10 raised to the power of a googol.',
@@ -63,7 +63,18 @@ let rFactsSci=
 
 let rFactsHis= ['factz', 'facty', 'factx', 'factw'];
 let rFactsArt= ['fact-', 'fact=', 'fact$', 'fact*'];
-let rFactsSup= ['fact(', 'fact?', 'fact[', 'fact{'];
+
+let rFactsSup= 
+['The space between your eyebrows is called your glabella.', 
+ 'A group of flamingos is called a "flamboyance".', 
+ 'Bananas are berries, but strawberries are not.', 
+ 'The longest time between two twins being born is 87 days.',
+ '70% of the human brain is made up of water.',
+ "John Steinbeck's original manuscript for Of Mice and Men was eaten by his dog.",
+ "It takes around 3,000 cows to supply enough leather for a full season's worth of NFL footballs.",
+ 'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.'
+];
+
 
 let mathB= document.querySelector('.button.math');
 let engB= document.querySelector('.button.english');
