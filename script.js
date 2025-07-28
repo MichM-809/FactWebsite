@@ -3,9 +3,9 @@ let rFactsMat=
  'In a room with 23 people, there is a 50% chance that 2 people will have the same birthday.', 
  'Every odd number has the letter "e".', 
  'The symbol for division (÷) is called an obelus.',
- 'A "Jiffy" is an acual unit of time. It is 1/100th of a second.',
+ 'A "Jiffy" is an actual unit of time. It is 1/100th of a second.',
  'Cicadas love prime numbers. They emerge from the ground every 13 or 17 years, both of which are prime numbers.',
- 'The largest know prime number has over 40 million digits as of 2024.',
+ 'The largest known prime number has over 40 million digits as of 2024.',
  '2 is the only even prime number.',
  'The number 0 is the only number that cannot be represented by Roman numerals.',   
  'The word "hundred" comes from the Old Norse word "hundrath," which means 120, not 100.',
@@ -43,12 +43,12 @@ let rFactsEng=
 
 let rFactsSci= 
 ['Approximately 2/3 of all the bird species are found in tropical rain forests.',
- 'The human body contains about 60,000 miles of blood vessels, enough to circle the Earth more than twice.', 
- 'Grasshoppers have ears in their bellies.', 
- 'An individual blood cell takes about 60 seconds to make a complete circuit of the body.',
- 'Hot water freezes faster than cold water under certain conditions. This is known as the Mpemba effect.',
- "You can't taste food without saliva.",
- 'The average cloud weighs about 1 million pounds.',
+'The human body contains about 60,000 miles of blood vessels, enough to circle the Earth more than twice.',
+'Grasshoppers have ears in their bellies.',
+'An individual blood cell takes about 60 seconds to make a complete circuit of the body.',
+'Hot water freezes faster than cold water under certain conditions. This is known as the Mpemba effect.',
+"You can't taste food without saliva.",
+'The average cloud weighs about 1 million pounds.',
  'There are more trees on earth than stars in our galaxy.',
  'It is impossible to burp in space.',
  'Bats are the only mammals that can fly.',
@@ -58,7 +58,7 @@ let rFactsSci=
  'Koalas are the only marsupials that have fingerprints similar to humans.',
  'About 20% of the oxygen we breathe is used by our brains.',
  'Octopuses have three hearts and blue blood.',
- 'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.',
+ 'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.'
 ];
 
 let rFactsHis= ['factz', 'facty', 'factx', 'factw'];
@@ -114,7 +114,7 @@ engB.addEventListener('click', () => {
 });
 
 sciB.addEventListener('click', () => {
-    let randomFact3 = rFactsSci[Math.floor(Math.random() * rFactsEng.length)];
+    let randomFact3 = rFactsSci[Math.floor(Math.random() * rFactsSci.length)];
     factBox3.textContent= randomFact3;
     factBox3.style.display= 'block';
     factBox1.style.display= 'none';
