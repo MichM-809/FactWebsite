@@ -61,7 +61,14 @@ let rFactsSci=
  'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.'
 ];
 
-let rFactsHis= ['factz', 'facty', 'factx', 'factw'];
+let rFactsHis= 
+['A woman was elected to Congress before women had the right to vote.',
+ 'The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after just 38 minutes.', 
+ '', 
+ ''
+];
+
+
 let rFactsArt= ['fact-', 'fact=', 'fact$', 'fact*'];
 
 let rFactsSup= 
@@ -72,7 +79,8 @@ let rFactsSup=
  '70% of the human brain is made up of water.',
  "John Steinbeck's original manuscript for Of Mice and Men was eaten by his dog.",
  "It takes around 3,000 cows to supply enough leather for a full season's worth of NFL footballs.",
- 'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.'
+ 'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.',
+ "Seuss's book Green Eggs and Ham was banned in China because it was thought to portray Marxism in a negative light with the way the eggs and ham are forced on others."
 ];
 
 
