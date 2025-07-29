@@ -64,12 +64,37 @@ let rFactsSci=
 let rFactsHis= 
 ['A woman was elected to Congress before women had the right to vote.',
  'The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after just 38 minutes.', 
- '', 
- ''
+ 'In 1952, Albert Einstein was offered the presidency of Israel, but he declined the offer because he felt unqualified.', 
+ "Despite the legend, George Washington didn't have wooden teeth! He had luxury dentures that were made out of gold, lead, and ivory, as well as being a mixture of animal and human teeth.",
+ "Iceland has the world's oldest parliament in history. It was established in 930 and has stayed as the acting parliament of Iceland since then.",
+ 'During World War II, Americans called hamburgers “liberty steaks" because “hamburger” sounded a little too German.',
+ 'Cleopatra lived closer in time to the first moon landing than to the construction of the Great Pyramid of Giza.',
+ 'Adolf Hitler helped design the Volkswagen Beetle.',
+ 'The South African railway once employed a baboon named Jack. In his eight years of service, he never made a single mistake.',
+ 'on January 15, 1919, a large storage tank filled with 2.3 million gallons of molasses burst in Boston, Massachusetts, causing a wave of molasses that killed 21 people and injured 150 others. This is known as the Great Molasses Flood.',
+ 'In 1386, a pig was executed in France for killing a child.',
+ 'During the Middle Ages, using forks was seen as sacrilegious, and people were expected to eat with their hands.',
+ 'The Ancient Romans used urine as mouthwash because it contains ammonia, which is a natural cleaning agent.',
+ 'King Henry VIII of England had servants who were called "Grooms of Stool," whose job was to wipe his bottom after he went to the bathroom.',
+ 'In 1815, a volcanic eruption in Indonesia caused a year without summer, leading to widespread crop failures and famine in Europe and North America.',
+ "Abraham Lincoln was a licensed bartender and in 1833, he opened up a bar called Berry and Lincoln with his friend William F. Berry in New Salem, Illinois. The shop was eventually closed when Berry, a raging alcoholic, consumed most of the shop's supply.",
+ 'Johnny Appleseed was a real person. His real name was John Chapman, and he was an American pioneer who introduced apple trees to large parts of the United States.',
+ "For over 30 years, Canada and Denmark have been playfully fighting for control of a tiny island near Greenland called Hans Island. Once in a while, when officials from each country visit, they leave a bottle of their country's liquor as a power move.",
+ "British poet and politician Lord Byron kept a pet bear in his dormitory while studying at Cambridge as a rebellious act against the university's ban on dogs.",
+ 'In Ancient Greece, they believed redheads became vampires after death.',
+ "Russia ran out of vodka celebrating the end of World War II. When the long war ended, street parties engulfed the Soviet Union until all of the nation's vodka reserves ran out a mere 22 hours after the partying started.",
+ 'Tug of War used to be an Olympic sport.',
+ 'In 1850  President Zachary Taylor died from a cherry overdose. He ate a large amount of cherries and drank iced milk on a hot day, which led to his death from acute gastroenteritis.',
+ 'Abraham Lincoln was a champion wrestler in his youth and was inducted into the Wrestling Hall of Fame in 1992.',
+ 'Ketchup was sold in the 1830s as medicine.',
+ "Cleopatra wasn't Egyptian; she was actually Greek."
 ];
 
-
-let rFactsArt= ['fact-', 'fact=', 'fact$', 'fact*'];
+let rFactsArt= 
+['',
+ 'fact=', 
+ 'fact$', 
+ 'fact*'];
 
 let rFactsSup= 
 ['The space between your eyebrows is called your glabella.', 
@@ -80,7 +105,9 @@ let rFactsSup=
  "John Steinbeck's original manuscript for Of Mice and Men was eaten by his dog.",
  "It takes around 3,000 cows to supply enough leather for a full season's worth of NFL footballs.",
  'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.',
- "Seuss's book Green Eggs and Ham was banned in China because it was thought to portray Marxism in a negative light with the way the eggs and ham are forced on others."
+ "Dr. Seuss's book Green Eggs and Ham was banned in China because it was thought to portray Marxism in a negative light with the way the eggs and ham are forced on others.",
+ 'Tablecloths were originally designed to be used as one big, communal napkin. When they were first invented, guests were meant to wipe off their hands and faces on a tablecloth after a messy dinner party.',
+ "Before alarm clocks and way before smartphone alarms, there were people called knocker-uppers who would literally knock on people's windows to wake them up in time for work."
 ];
 
 
