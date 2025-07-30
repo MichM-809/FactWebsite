@@ -114,10 +114,22 @@ h2 {
   display: none;
 }
 
+/* quizbox*/
+#quiz-box{
+  width: auto;
+  min-width: 300px;
+  max-width: 60vw;
+  padding: 25px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  word-break: break-word;
+  display: none;
+}
 .button{ 
       width: 180px;
       height: 70px;
-      border: none;
       color: white;
       padding: 15px 32px;
       text-align: center;
@@ -127,6 +139,10 @@ h2 {
       margin: 20px 25px;
       cursor: pointer;
       transition-duration: 0.2s;
+      border-radius: 4px;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
     }
 
   .math{ 
@@ -188,5 +204,22 @@ h2 {
       background-color: #ffc0cb;
   color: white;
     }
+
+.begin{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.begin:hover{
+  background-color: #D3D3D3;
+  color: black;
+}
+
+/* Quiz buttons */
+.choice1:hover, .choice2:hover, .choice3:hover {
+  background-color: #D3D3D3;
+  color: black;
+
+}
 
     

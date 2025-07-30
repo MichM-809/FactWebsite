@@ -91,10 +91,24 @@ let rFactsHis=
 ];
 
 let rFactsArt= 
-['',
- 'fact=', 
- 'fact$', 
- 'fact*'];
+['The Starry Night was painted in a psych ward.',
+ 'The Art Institute of Chicago has a real-life replica of Van Gogh’s bedroom painting and is available for rent for 10 dollars on air bnb.',
+ 'The sculpture of David was originally going to be a statue of Hercules.',
+ 'Art competitions were once part of the Olympics.',
+ 'There are four versions of The Scream.',
+ 'Kim Dong Yoo created a painting of Albert Einstein using portraits of Marilyn Monroe.',
+ 'The Mona Lisa was not famous until it was stolen.',
+ 'The largest statue in the world by height is the Statue of Unity in Gujarat, India. It is twice the height of the Statue of Liberty, and required a workforce of 3,000 people to build.',
+ 'Banksy is the most famous graffiti artist in the world, but no one knows his real name.',
+ "The world's most expensive painting is Salvator Mundi, a painting of Jesus Christ by Leonardo da Vinci, which sold for $450 million at an auction in 2017.",
+ 'Bob Ross kept an alligator in his bathtub as a kid.',
+ 'The famous artist Pablo Picasso could draw before he could walk, and his first word was "pencil".',
+ 'Bob Ross was an Air Force Sergeant before he became a painter, and he vowed to never raise his voice again after leaving the military.',
+ 'The Chupa Chups logo was designed by Salvador Dalí in 1969.',
+ 'The smallest hand-made sculpture is 0.02517 mm x 0.02184 mm and was achieved by David A Lindon on 1 August 2024. He created a sculpture of a red LEGO brick similar in size to a human white blood cell.',
+ 'The Easter Island heads have bodies. They are buried up to their necks in the ground, and some have full torsos that can be seen when excavated.',
+ 'The worlds largest painting is a 1,600 square meter mural called "The Journey of Humanity" by Sacha Jafri, which was created in Dubai in 2020. It was painted on a single canvas and took over 18 months to complete.',
+];
 
 let rFactsSup= 
 ['The space between your eyebrows is called your glabella.', 
@@ -117,6 +131,10 @@ let sciB= document.querySelector('.button.science');
 let hisB= document.querySelector('.button.history');
 let artB= document.querySelector('.button.arts');
 let supB= document.querySelector('.button.suprise');
+let beginB= document.querySelector('.button.begin');
+let c1= document.querySelector('.button.choice1');
+let c2= document.querySelector('.button.choice2');
+let c3= document.querySelector('.button.choice3');
 
 let factBox1= document.getElementById('fact-box1');
 let factBox2= document.getElementById('fact-box2');
@@ -124,6 +142,7 @@ let factBox3= document.getElementById('fact-box3');
 let factBox4= document.getElementById('fact-box4');
 let factBox5= document.getElementById('fact-box5');
 let factBox6= document.getElementById('fact-box6');
+let quizBox = document.getElementById('quiz-box');
 
 mathB.addEventListener('click', () => {
     let randomFact1 = rFactsMat[Math.floor(Math.random() * rFactsMat.length)];
@@ -192,3 +211,41 @@ supB.addEventListener('click', () => {
     factBox4.style.display= 'none';
     factBox5.style.display= 'none';
 });
+
+beginB.addEventListener('click', () => {
+    beginB.style.display = 'none';
+    quizBox.style.display = 'block';
+    c1.style.display = 'block';
+    c2.style.display = 'block';
+    c3.style.display = 'block';
+   
+    factBox1.style.display = 'none';
+    factBox2.style.display = 'none';
+    factBox3.style.display = 'none';
+    factBox4.style.display = 'none';
+    factBox5.style.display = 'none';
+    factBox6.style.display = 'none';
+
+});
+
+function startQuiz() {
+   
+}
+
+let questions = [
+    {
+        question: "What is the capital of France?",
+        options: ["Berlin", "Madrid", "Paris", "Rome"],
+        answer: "Paris"
+    },
+    {
+        question: "What is the largest planet in our solar system?",
+        options: ["Earth", "Mars", "Jupiter", "Saturn"],
+        answer: "Jupiter"
+    },
+    {
+        question: "Who wrote 'To Kill a Mockingbird'?",
+        options: ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+        answer: "Harper Lee"
+    }
+];
