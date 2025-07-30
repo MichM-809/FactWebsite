@@ -135,6 +135,7 @@ let beginB= document.querySelector('.button.begin');
 let c1= document.querySelector('.button.choice1');
 let c2= document.querySelector('.button.choice2');
 let c3= document.querySelector('.button.choice3');
+let submitB= document.querySelector('.button.submit');
 
 let factBox1= document.getElementById('fact-box1');
 let factBox2= document.getElementById('fact-box2');
@@ -218,7 +219,7 @@ beginB.addEventListener('click', () => {
     c1.style.display = 'block';
     c2.style.display = 'block';
     c3.style.display = 'block';
-   
+    submitB.style.display = 'block';
     factBox1.style.display = 'none';
     factBox2.style.display = 'none';
     factBox3.style.display = 'none';
@@ -226,26 +227,31 @@ beginB.addEventListener('click', () => {
     factBox5.style.display = 'none';
     factBox6.style.display = 'none';
 
+    startQuiz();
 });
 
 function startQuiz() {
-   
+   const question = questions[currentQuestionIndex];
+        document.getElementById('quiz-question').textContent = question.question;
+        c1.textContent = question.options[0];
+        c2.textContent = question.options[1];
+        c3.textContent = question.options[2];
 }
 
 let questions = [
     {
         question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Rome"],
+        options: ["Berlin", "Madrid", "Paris"],
         answer: "Paris"
     },
     {
         question: "What is the largest planet in our solar system?",
-        options: ["Earth", "Mars", "Jupiter", "Saturn"],
+        options: ["Earth", "Mars", "Jupiter"],
         answer: "Jupiter"
     },
     {
         question: "Who wrote 'To Kill a Mockingbird'?",
-        options: ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+        options: ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald"],
         answer: "Harper Lee"
     }
 ];
