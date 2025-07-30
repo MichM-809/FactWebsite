@@ -232,6 +232,7 @@ beginB.addEventListener('click', () => {
 
 function startQuiz() {
    const question = questions[currentQuestionIndex];
+   let currentQuestionIndex = 0;
         document.getElementById('quiz-question').textContent = question.question;
         c1.textContent = question.options[0];
         c2.textContent = question.options[1];
