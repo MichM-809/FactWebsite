@@ -135,7 +135,6 @@ let beginB= document.querySelector('.button.begin');
 let c1= document.querySelector('.button.choice1');
 let c2= document.querySelector('.button.choice2');
 let c3= document.querySelector('.button.choice3');
-let submitB= document.querySelector('.button.submit');
 
 let factBox1= document.getElementById('fact-box1');
 let factBox2= document.getElementById('fact-box2');
@@ -219,7 +218,6 @@ beginB.addEventListener('click', () => {
     c1.style.display = 'block';
     c2.style.display = 'block';
     c3.style.display = 'block';
-    submitB.style.display = 'block';
     factBox1.style.display = 'none';
     factBox2.style.display = 'none';
     factBox3.style.display = 'none';
@@ -231,12 +229,59 @@ beginB.addEventListener('click', () => {
 });
 
 function startQuiz() {
-   const question = questions[currentQuestionIndex];
-   let currentQuestionIndex = 0;
+    let currentQuestionIndex = 0;
+    let score = 0;
+
+    function showQuestion() {
+        const question = questions[currentQuestionIndex];
         document.getElementById('quiz-question').textContent = question.question;
         c1.textContent = question.options[0];
         c2.textContent = question.options[1];
         c3.textContent = question.options[2];
+    }
+
+    function checkAnswer(selectedOption) {
+        const question = questions[currentQuestionIndex];
+        if (selectedOption === question.answer) {
+            score++;
+            document.getElementById('quiz-result').textContent = "Correct.";
+        } else {
+            document.getElementById('quiz-result').textContent = "Wrong. The correct answer was: " + question.answer;
+        }
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+        } else {
+            document.getElementById('quiz-result').textContent += ` Your final score is ${score}/${questions.length}.`;
+            c1.style.display = 'none';
+            c2.style.display = 'none';
+            c3.style.display = 'none';
+        }
+
+        if (selectedOption === selectedOption) {
+            c1.style.display = 'none';
+            c2.style.display = 'none';
+            c3.style.display = 'none';
+            document.getElementById('quiz-question').textContent = "";
+
+            setTimeout(() => {
+                document.getElementById('quiz-result').textContent = "";
+                if (currentQuestionIndex < questions.length) {
+                c1.style.display = 'block';
+                c2.style.display = 'block';
+                c3.style.display = 'block';
+                showQuestion();
+                }
+            }, 1500);
+
+        }
+    }
+
+    c1.addEventListener('click', () => checkAnswer(c1.textContent));
+    c2.addEventListener('click', () => checkAnswer(c2.textContent));
+    c3.addEventListener('click', () => checkAnswer(c3.textContent));
+
+    showQuestion();
 }
 
 let questions = [
