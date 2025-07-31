@@ -135,6 +135,7 @@ let beginB= document.querySelector('.button.begin');
 let c1= document.querySelector('.button.choice1');
 let c2= document.querySelector('.button.choice2');
 let c3= document.querySelector('.button.choice3');
+let restartB= document.querySelector('.button.restart');
 
 let factBox1= document.getElementById('fact-box1');
 let factBox2= document.getElementById('fact-box2');
@@ -252,10 +253,24 @@ function startQuiz() {
         if (currentQuestionIndex < questions.length) {
             showQuestion();
         } else {
+            setTimeout(() => {
+            document.getElementById('quiz-result').textContent= 'Quiz Complete.';
             document.getElementById('quiz-result').textContent += ` Your final score is ${score}/${questions.length}.`;
+            }, 2000);
             c1.style.display = 'none';
             c2.style.display = 'none';
             c3.style.display = 'none';
+            restartB.style.display = 'block';
+            restartB.addEventListener('click', () => {
+                currentQuestionIndex = 0;
+                score = 0;
+                document.getElementById('quiz-result').textContent = "";
+                restartB.style.display = 'none';
+                c1.style.display = 'block';
+                c2.style.display = 'block';
+                c3.style.display = 'block';
+                showQuestion();
+            });
         }
 
         if (selectedOption === selectedOption) {

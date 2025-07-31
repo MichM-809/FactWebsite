@@ -121,7 +121,7 @@ h2 {
   min-width: 300px;
   max-width: 60vw;
   padding: 25px;
-  border: 2px solid black;
+  border: 3px solid #483D8B;
   margin: 20px auto;
   background-color: white;
   text-align: center;
@@ -229,6 +229,12 @@ h2 {
   display: inline-block;
   margin: 0px;
 }
+
+.restart:hover{
+background-color: #D3D3D3;
+  color: black;
+}
+
 
 
 
