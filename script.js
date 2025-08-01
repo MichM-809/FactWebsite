@@ -120,8 +120,8 @@ let rFactsSup=
  "It takes around 3,000 cows to supply enough leather for a full season's worth of NFL footballs.",
  'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.',
  "Dr. Seuss's book Green Eggs and Ham was banned in China because it was thought to portray Marxism in a negative light with the way the eggs and ham are forced on others.",
- 'Tablecloths were originally designed to be used as one big, communal napkin. When they were first invented, guests were meant to wipe off their hands and faces on a tablecloth after a messy dinner party.',
- "Before alarm clocks and way before smartphone alarms, there were people called knocker-uppers who would literally knock on people's windows to wake them up in time for work."
+ "Before alarm clocks and way before smartphone alarms, there were people called knocker-uppers who would literally knock on people's windows to wake them up in time for work.",
+ 'There are 12 definitions of the word "art"in the Oxford Dictionary.'
 ];
 
 
@@ -300,19 +300,37 @@ function startQuiz() {
 }
 
 let questions = [
-    {
-        question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris"],
-        answer: "Paris"
-    },
-    {
-        question: "What is the largest planet in our solar system?",
-        options: ["Earth", "Mars", "Jupiter"],
-        answer: "Jupiter"
-    },
-    {
-        question: "Who wrote 'To Kill a Mockingbird'?",
-        options: ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald"],
-        answer: "Harper Lee"
-    }
+    {question: "What is the only even prime number?", options: ['2', '6', '8'], answer: '2'},
+    {question: "What is the longest word in the English Dictionary?", options: ["Hippopotomonstrosesquipedaliophobia", "Pneumonoultramicroscopicsilicovolcanoconiosis", "Supercalifragilisticexpialidocious"], answer: "Pneumonoultramicroscopicsilicovolcanoconiosis"},
+    {question: 'What percentage of all the bird species are found in tropical rain forests?', options: ["2/3", "3/5", "2/4"], answer: "2/3"},
+    {question: 'How long did the shortest war in history last?', options: ['38 minutes', '22 minutes', '45 minutes'], answer: '38 minutes'},
+    {question: 'Where was the Starry Night Painted?', options: ['Library', 'Psych Ward', 'University Building'], answer: 'Psych Ward'},
+    {question: 'What is  the space between your eyebrows called?', options: ['Glabella', 'Lacrimal', 'Vomer'], answer: 'Glabella'},
+    {question: 'In a room with 23 people, what is the chance that 2 people will have the same birthday?', options: ['25%', '30%', '50%'], answer: '50%'},
+    {question: 'What is the symbol for division called?', options: ['Obelus', 'Oculus', 'Nubulus'], answer: 'Obelus'},
+    {question: 'What is the only number that cannot be represented by Roman numerals?', options: ['100', '0', '10000'], answer: '0'},
+    {question: 'How many dialects of English are there?', options: [ '10', '24', '21'], answer: '24'},
+    {question: 'What is the most commonly used letter in the English alphabet?', options: ['E', 'A', 'O'], answer: 'E'},
+    {question: 'What is the newest letter that was added to the English alphabet?', options: ['Q', 'J', 'Z'], answer: 'J'},
+    {question: 'Approximately, how much does the average cloud weigh?', options: ['100 pounds', '1 million pounds', '50 pounds'], answer: '1 million pounds'},
+    {question: 'What are the only mammals that can fly?', options: [ 'Bat', 'Lizard', 'Squirrel'], answer: 'Bat'},
+    {question: 'How many miles of blood vessels does the human body have?', options: ['20,000 miles', '100,000 miles', '60,000 miles'], answer: '60,000 miles'},
+    {question: 'What did ancient Romans use as mouthwash?', options: ['Urine', 'Wine', 'Milk'], answer: 'Urine'},
+    {question: 'What did Lord Byron keep as a pet while he was studying at Cambridge?', options: ['Fox', 'Tiger', 'Bear'], answer: 'Bear'},
+    {question: "What was Johnny Appleseed's real name?", options: ['James Smith', 'Ken Afton', 'John Chapman'], answer: 'John Chapman'},
+    {question: 'How many versions of The Scream by Edvard Munch exist.', options: [ '1', '4', '6'], answer: '4'},
+    {question: 'What is the tallest statue in the world?', options: ['The Statue of Unity', 'The Statue of Liberty', 'The Motherland Calls'], answer: 'The Statue of Unity'},
+    {question: 'What was Bob Ross before he became a painter?', options: ['Air Force Sergeant', 'Fire Fighter', 'Police Officer'], answer: 'Air Force sergeant'},
+    {question: 'What is a group of flamingos called?', options: ['Flamboyance', 'Flock', 'Blush'], answer: 'Flamboyance'},
+    {question: 'What is the longest time between two twins being born?', options: ['51 days', '87 days', '139 days'], answer: '87 days'},
+    {question: "How many cows does it take to supply enough leather for a full season's worth of NFL footballs?", options: ['50,000 cows', '5,000 cows', '3,000 cows'], answer: '3,000 cows'}
+
+
+
+
+
+
+
+
+
 ];
