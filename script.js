@@ -301,7 +301,8 @@ function startQuiz() {
 
 let questions = [
     {question: "What is the only even prime number?", options: ['2', '6', '8'], answer: '2'},
-    {question: "What is the longest word in the English Dictionary?", options: ["Hippopotomonstrosesquipedaliophobia", "Pneumonoultramicroscopicsilicovolcanoconiosis", "Supercalifragilisticexpialidocious"], answer: "Pneumonoultramicroscopicsilicovolcanoconiosis"},
+    {question: 'What is the most commonly used word in the English language?', options: ['The', 'Is', 'In'], answer: 'The'},
+    {question: "How small is the world's smallest hand-made sculpture?", options: ['As small as penny', 'As small as a grain of rice', 'As small as a white blood cell'], answer: 'As small as a white blood cell'},
     {question: 'What percentage of all the bird species are found in tropical rain forests?', options: ["2/3", "3/5", "2/4"], answer: "2/3"},
     {question: 'How long did the shortest war in history last?', options: ['38 minutes', '22 minutes', '45 minutes'], answer: '38 minutes'},
     {question: 'Where was the Starry Night Painted?', options: ['Library', 'Psych Ward', 'University Building'], answer: 'Psych Ward'},
@@ -320,17 +321,34 @@ let questions = [
     {question: "What was Johnny Appleseed's real name?", options: ['James Smith', 'Ken Afton', 'John Chapman'], answer: 'John Chapman'},
     {question: 'How many versions of The Scream by Edvard Munch exist.', options: [ '1', '4', '6'], answer: '4'},
     {question: 'What is the tallest statue in the world?', options: ['The Statue of Unity', 'The Statue of Liberty', 'The Motherland Calls'], answer: 'The Statue of Unity'},
-    {question: 'What was Bob Ross before he became a painter?', options: ['Air Force Sergeant', 'Fire Fighter', 'Police Officer'], answer: 'Air Force sergeant'},
+    {question: 'What was Bob Ross before he became a painter?', options: ['Air Force Sergeant', 'Fire Fighter', 'Police Officer'], answer: 'Air Force Sergeant'},
     {question: 'What is a group of flamingos called?', options: ['Flamboyance', 'Flock', 'Blush'], answer: 'Flamboyance'},
     {question: 'What is the longest time between two twins being born?', options: ['51 days', '87 days', '139 days'], answer: '87 days'},
-    {question: "How many cows does it take to supply enough leather for a full season's worth of NFL footballs?", options: ['50,000 cows', '5,000 cows', '3,000 cows'], answer: '3,000 cows'}
-
-
-
-
-
-
-
-
+    {question: "How many cows does it take to supply enough leather for a full season's worth of NFL footballs?", options: ['50,000 cows', '5,000 cows', '3,000 cows'], answer: '3,000 cows'},
+    {question: 'What is  the only number with its letters in alphabetical order?', options: [ '40', '20', '7'], answer: '40'},
+    {question: "What word doesn't rhyme with any other word?", options: ['Park', 'Bear', 'Wolf'], answer: 'Wolf'},
+    {question: 'How many hearts does an octopus have?', options: ['1', '2', '3'], answer: '3'},
+    {question: 'What was Abraham Lincoln before he became president?', options: ['Dancer', 'Fire Fighter',  'Wrestler'], answer: 'Wrestler'},
+    {question: 'What did Bob Ross use to keep in his bathtub as a kid?', options: ['Koala', 'Alligator', 'Bear'], answer: 'Alligator'},
+    {question: 'How many definitions of the word "art" are there in the Oxford Dictionary?', options: ['5', '12', '20'], answer: '12'},
+    {question: 'What is a Jiffy?', options: ['Just a phrase', '1/100th of a second', '1/2 of a second'], answer: '1/100th of a second'},
+    {question: 'What is the dot on top of the letters "i" and "j" called?', options: ['Aglet', 'Button', 'Tittle'], answer: 'Tittle'},
+    {question: 'About what percentage of the oxygen we breathe is used by our brains?', options: [ '15%', '20%', '10%'], answer: '20%'},
+    {question: 'What country has the world’s oldest parliament?', options: ['Rwanda', 'Japan', 'Iceland'], answer: 'Iceland'},
+    {question: 'Who designed the Chupa Chups logo?', options: ['Salvador Dalí', 'Frida Kahlo', 'Andy Warhol'], answer: 'Salvador Dalí'},
+    {question: 'Which of these fruits are berries?', options: ['Banana', 'Strawberry', 'Mango'], answer: 'Banana'},
+    {question: 'What is a googol?', options: ['1 followed by 100 zeros', 'A search engine', '2 followed by 150 zeros'], answer: '1 followed by 100 zeros'},
+    {question: 'What is the word for the day after tomorrow?', options: ['Postmorrow', 'Overmorrow', 'Aftermorrow'], answer: 'Overmorrow'},
+    {question: 'What is the only marsupial that has fingerprints?', options: ['Koalas', 'Kangaroos', 'Wombats'], answer: 'Koalas'},
+    {question: 'During World War II, what did Americans call hamburgers?', options: ['America Meat', 'Freedom Sandwiches', 'Liberty Steaks'], answer: 'Liberty Steaks'},
+    {question: 'What is the most expensive painting ever sold?', options: ['Mona Lisa', 'The Creation of Adam', 'Salvator Mundi'], answer: 'Salvator Mundi'},
+    {question: 'What percent of the human brain is made up of water?', options: ['90%', '70%', '50%'], answer: '70%'},
+    {question: 'From 1 to 10, what is the only number that has 2 syllables?', options: ['10', '6', '7'], answer: '7'},
+    {question: 'What is the longest word in the English language that does not have a vowel?', options: [ 'Myth', 'Rhythms', 'Slyly'], answer: "Rhythms"},
+    {question: 'About how long does an individual blood cell take to make a complete circuit of the body?', options: [ '30 seconds', '60 seconds', '90 seconds'], answer:  '60 seconds'},
+    {question: 'About how many gallons of molasses flowed through Boston during the Great Molasses Flood?', options: ['90 thousand gallons', '2 million gallons', '25 million gallons'], answer: '2 million gallons'},
+    {question: "What is the world's largest painting called?", options: ['BigFoot', 'The Journey of Humanity', 'Everything, Everywhere'], answer: 'The Journey of Humanity'},
+    {question: 'Which Dr. Seuss book was banned in China?', options: ['The Cat in the Hat','The Lorax', 'Green Eggs and Ham'], answer: 'Green Eggs and Ham'},
+    {question: 'What is the fear of heights called?', options: ['Catoptrophobia', 'Barophobia',  'Acrophobia'], answer: 'Acrophobia'},
 
 ];
