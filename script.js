@@ -287,7 +287,7 @@ function startQuiz() {
                 c3.style.display = 'block';
                 showQuestion();
                 }
-            }, 1500);
+            }, 1800);
 
         }
     }
