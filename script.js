@@ -71,7 +71,7 @@ let rFactsHis=
  'Cleopatra lived closer in time to the first moon landing than to the construction of the Great Pyramid of Giza.',
  'Adolf Hitler helped design the Volkswagen Beetle.',
  'The South African railway once employed a baboon named Jack. In his eight years of service, he never made a single mistake.',
- 'on January 15, 1919, a large storage tank filled with 2.3 million gallons of molasses burst in Boston, Massachusetts, causing a wave of molasses that killed 21 people and injured 150 others. This is known as the Great Molasses Flood.',
+ 'On January 15, 1919, a large storage tank filled with 2.3 million gallons of molasses burst in Boston, Massachusetts, causing a wave of molasses that killed 21 people and injured 150 others. This is known as the Great Molasses Flood.',
  'In 1386, a pig was executed in France for killing a child.',
  'During the Middle Ages, using forks was seen as sacrilegious, and people were expected to eat with their hands.',
  'The Ancient Romans used urine as mouthwash because it contains ammonia, which is a natural cleaning agent.',
