@@ -16,6 +16,18 @@ let rFactsMat=
  'The number 4 is considered unlucky in some cultures because it sounds like the word for "death" in Chinese.',
  'It is statistically safer to fly than to drive, with the odds of dying in a plane crash being 1 in 11 million, compared to 1 in 5,000 for car accidents.',
  'It is statistically safer to travel on friday the 13th than on any other day of the week, with fewer accidents reported on that day.',
+ 'The square root of 2 was the very first irrational number to be discovered.',
+ 'The number 4 is the only number spelled with the same number of letters as itself.',
+ 'The Pythagoreans believed that even numbers were masculine and odd numbers were feminine.',
+ 'In many monotheistic religions, the number 1 often symbolizes God or the universe.',
+ 'The Pythagoreans believed that 1 was not a number and was not odd.',
+ 'Many cultures believe that the number 5 symbolizes is sacred and symbolizes human life due to the five fingers of the human hand and the five extremities of the body (two arms, two legs, and a head).',
+ '6 is both the sum (1 + 2 + 3) and the product (1 x 2 x 3) of the first three numbers. It is therefore considered “perfect.”',
+ 'Fibonacci numbers are very common in the plant kingdom. Many flowers have 3, 5, 8, 13, 21, or 34 petals.',
+ 'When texting in Thailand people will send the digits “555” to indicate that something is funny because “5” is pronounced “ha” —so “555” translates to “hahaha.”',
+ "A rubik's cube has 43 quintillion different permutations.",
+
+
 ];
 
 let rFactsEng= 
@@ -38,7 +50,25 @@ let rFactsEng=
  'Every year, the Oxford English Dictionary adds around 1,000 new words.',
  'The word "typewriter" is the longest word that can be typed using only the top row of a keyboard.',
  'The word "queueing" contains five consecutive vowels.',
- `There are many words in the English language that dont't rhyme with any other word, such as "purple", "silver", and "wolf".`
+ `There are many words in the English language that dont't rhyme with any other word, such as "purple", "silver", and "wolf".`,
+ 'English is the official language for maritime and aeronautical communications.',
+ 'Words have a lifespan of anywhere between 1,000 and 20,000 years. More commonly used words tend to last longer.',
+ 'Those who read fiction have a larger vocabulary than those who do not. Fiction usually contains a wider range of vocabulary than nonfiction does.',
+ 'Shakespeare added 1,700 words to the English language during his lifetime.',
+ 'Only one word in all of English has the letters X, Y, and Z in order: Hydroxyzine. This word is a type of medicine that prevents sneezing and anxiety.',
+ 'Before it meant "line," a queue meant the tail of a beast in medieval pictures and designs.',
+ 'More English words begin with the letter "s" than any other letter.',
+ 'The most commonly misused word in the English language is "irony." Irony is often confused with sarcasm, coincidence, or paradox.',
+ 'The most hated word in English is "moist." It has been voted the most annoying word for over a decade, with 34 percent of Americans reporting it as their most loathed word.',
+ 'The longest word you can make using only four letters is "senseless."',
+ 'The word "good-bye" is a contraction of "God be with ye."',
+ 'The most commonly used noun in the English language is the word "time."',
+ 'Some English words exist only in plural form, such as binoculars, scissors, pants, and knickers.',
+ ' The ampersand (&)  used to be the 27th letter of the alphabet.',
+ 'Capitonyms are words which change their meaning if the first letter is capitalized. For example: Turkey (the country) and turkey (the bird).',
+ 'The happiest word in the english language is “laughter”.',
+ 'A fortnight is a unit of time that equals 14 days.',
+ 'English used to have grammatical gender.'
 ];
 
 let rFactsSci= 
@@ -58,7 +88,30 @@ let rFactsSci=
  'Koalas are the only marsupials that have fingerprints similar to humans.',
  'About 20% of the oxygen we breathe is used by our brains.',
  'Octopuses have three hearts and blue blood.',
- 'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.'
+ 'The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.',
+ 'Due to being rich in potassium, every banana is actually slightly radioactive thanks to containing the natural isotope potassium-40.',
+ "Hippos can't swim. A hippo's bones are so big and dense, that they're barely buoyant at all.",
+ 'Platypuses sweat milk.',
+ 'You can smell ants. Many species of ants release strong-smelling chemicals when they’re angry, threatened or being squished.',
+ 'Rhinorrhea is the medical term for "runny nose."',
+ 'The longest scientific binomial name given to any animal is Parastratiosphecomyia stratiosphecomyioides (containing 42 letters), which is a species of stratiomyid fly with a metallic green thorax and abdomen, known as the soldier fly.',
+ 'neezes regularly exceed 100 mph, while coughs go at about 60 mph.',
+ 'Your eyes blink around 20 times a minute.',
+ 'The tongue is covered in about 8,000 taste-buds, each containing up to 100 cells.',
+ 'The average nose produces about 1 liter of nasal mucus every day.',
+ 'Helium was first discovered in the sun, not on Earth.',
+ 'The human body is made up of over 60 elements. While oxygen, carbon, hydrogen, nitrogen, calcium, and phosphorus make up more than 99% of the body’s mass, trace elements like iron, zinc, and copper are just as important for proper bodily function.',
+ 'Chemists have identified over 100,000 distinct chemical compounds, and this number is growing every year.',
+ "There is more gold in the ocean than we've ever found on Earth.",
+ 'The smell of rain comes from a compound called Petrichor. This substance is released when raindrops hit the ground, releasing oils from plants and bacteria.',
+ 'The cornea is the only part of the body with no blood supply – it gets its oxygen directly from the air.',
+ 'Embryos develop fingerprints three months after conception.',
+ "Humans are bioluminescent, the light just isn't perceptible to the human eye.",
+ 'When you blush, the inside of your stomach does too.',
+ 'Astronauts can grow up to two inches taller in space.',
+ 'When listening to music, your heartbeat will sync with the rhythm.',
+ 'You are taller in the morning than you are at night.',
+ "You can't breathe and swallow at the same time."
 ];
 
 let rFactsHis= 
@@ -87,7 +140,22 @@ let rFactsHis=
  'In 1850  President Zachary Taylor died from a cherry overdose. He ate a large amount of cherries and drank iced milk on a hot day, which led to his death from acute gastroenteritis.',
  'Abraham Lincoln was a champion wrestler in his youth and was inducted into the Wrestling Hall of Fame in 1992.',
  'Ketchup was sold in the 1830s as medicine.',
- "Cleopatra wasn't Egyptian; she was actually Greek."
+ "Cleopatra wasn't Egyptian; she was actually Greek.",
+ 'In 1518, around 400 people in Strasbourg danced for days without rest in a phenomenon known as the Dancing Plague.',
+ 'Barbers often performed medical procedures such as amputations and tooth extractions.',
+ 'Women consumed arsenic to achieve a fashionable, pale complexion.',
+ 'The felt for Victorian hats was often treated with mercury, leading to mercury poisoning among hatters.',
+ 'In Britain, a tax was imposed on windows, leading many homeowners to brick up their windows to avoid it.',
+ 'The Australian military waged war against emus in the 1930s.',
+ 'Slipping on a banana peel was a genuine public hazard in the early 1900s.',
+ 'The 1938 radio broadcast of “War of the Worlds” caused widespread panic among listeners who believed it was a real news broadcast.',
+ 'A cigarette case saved Archduke Franz Ferdinand’s life in an assassination attempt hours before he was killed in another attack.',
+ 'The CIA attempted to use cats as spies in the 1960s.',
+ 'In 1970, a dead whale in Oregon was blown up by the state highway division to dispose of it, causing blubber to rain down on spectators.',
+ 'Victorian toothpaste ingredients included chalk, pulverized brick, and charcoal.',
+ 'During the siege of Caffa, the Mongols catapulted plague-ridden bodies over the city walls to infect their enemies.',
+ 'Suspected criminals were subjected to painful tasks such as carrying hot iron bars. Innocence was proclaimed if their wounds healed cleanly within a certain period. Europeans often buried witch bottles filled with urine, hair, or nail clippings under their homes for protection against witchcraft.',
+ 'To stay cool and avoid lice, both men and women in ancient Egypt shaved their heads and often wore wigs.'
 ];
 
 let rFactsArt= 
@@ -108,6 +176,29 @@ let rFactsArt=
  'The smallest hand-made sculpture is 0.02517 mm x 0.02184 mm and was achieved by David A Lindon on 1 August 2024. He created a sculpture of a red LEGO brick similar in size to a human white blood cell.',
  'The Easter Island heads have bodies. They are buried up to their necks in the ground, and some have full torsos that can be seen when excavated.',
  'The worlds largest painting is a 1,600 square meter mural called "The Journey of Humanity" by Sacha Jafri, which was created in Dubai in 2020. It was painted on a single canvas and took over 18 months to complete.',
+ 'Renaissance artist Michelangelo left instructions to be buried secretly to avoid disturbing his corpse.',
+ 'The Sistine Chapel ceiling took Michelangelo four years to complete.',
+ 'The 500 Mexican peso bill is unique in that it contains two portraits, one on each side. The duo are the famous couple, Frida Kahlo and Diego Rivera.',
+ 'In her career, Frida Kahlo created 143 paintings out of which 55 are self-portraits.',
+ 'Leonardo da Vinci was a 15th century animal rights activist and vegetarian.',
+ 'Leonardo da Vinci was Ambidextrous - able to write with one hand while simultaneously drawing with the other.',
+ 'Picasso believed that art is done to wash away the dust of our daily lives from our souls.',
+ 'Pablo Picasso was a prime suspect in the theft of the Mona Lisa in 1911, but he was proven to be innocent after the trials.',
+ 'The 3500-year-old Kerala murals were made entirely of natural paints and vegetable dyes.',
+ 'Due to all the love messages she gets, the Mona Lisa has her own mailbox in the Louvre.',
+ 'Michelangelo and Leonardo Da Vinci revolutionized the way human bodies were portrayed in paintings.',
+ 'The modern pencil was invented by Nicholas-Jacques Conte in 1795. This French inventor revolutionized the design of the pencil by developing a process to mix graphite powder with clay and forming it into rods that were then baked.',
+ 'Cai Lun, a Chinese government official during the Eastern Han Dynasty (around 105 CE), is often credited with inventing a more standardized form of paper. He is known for refining the papermaking process by using a mixture of mulberry tree bark, old fishing nets, and other materials to create a pulp that could be formed into sheets.',
+ `The word "exsibilation" refers to an audience's practice of hissing a bad performer off the stage; it first appears in a work of 1640.`,
+ 'Thespis is credited with being the person who invented the idea of the actor. It is from him that we get “thespian”.',
+ 'Trilby and fedora hats both took their names from plays first performed in the nineteenth century.',
+ "In theater's early years, a room painted green with subdued lighting served as a space for actors to gather their thoughts and prepare themselves before performing. The calming color and presence of green plants aimed to alleviate nervousness among performers.",
+ `Andrew Lloyd Webber's "The Phantom of the Opera" holds the title of the longest-running Broadway show. It ran at the Majestic Theater on Broadway from 1988 to 2023 and had 13,981 performances.`,
+ 'The Intimate Review,” performed at the Duchess Theatre in 1930, holds the record for the shortest show run in history. It closed mid-performance due to numerous issues, including prolonged scene changes, a flimsy backdrop where actors and stagehands could be heard bickering, and actors getting entangled in their costumes.',
+ 'The first photo took 8 hours to expose.',
+ 'The most expensive photograph sold at $12.4 million.',
+ 'The most expensive camera is worth €14.4 million.',
+ 'The most viewed photograph was captured in 1996.  A green hill in a blue sky is considered the most viewed photograph in history because it was the default wallpaper of Windows XP.'
 ];
 
 let rFactsSup= 
@@ -121,7 +212,37 @@ let rFactsSup=
  'The longest single-word place name is Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu in New Zealand, which has 85 letters.',
  "Dr. Seuss's book Green Eggs and Ham was banned in China because it was thought to portray Marxism in a negative light with the way the eggs and ham are forced on others.",
  "Before alarm clocks and way before smartphone alarms, there were people called knocker-uppers who would literally knock on people's windows to wake them up in time for work.",
- 'There are 12 definitions of the word "art"in the Oxford Dictionary.'
+ 'There are 12 definitions of the word "art"in the Oxford Dictionary.',
+ '40 degrees Is the Only Temperature That Is the Same in Both Fahrenheit and Celsius.',
+ 'The fastest record for a person counting to 1 million is 89 days.',
+ 'Chainsaws were first invented for childbirth.',
+ 'The quietest place on Earth is the anechoic chamber at Orfield Laboratories in Minnesota, USA, which has an ambient sound level of -24.9 dBA.',
+ 'A horse normally has more than one horsepower. A study in 1993 showed that the maximum power a horse can produce is 18,000W, around 24 horsepower.',
+ 'One in 18 people have a third nipple.',
+ 'The loudest sound ever recorded was produced by the Krakatoa eruption on August 27, 1883, which reached an estimated 310 decibels (dB).',
+ 'LEGO bricks withstand compression better than concrete.',
+ 'The longest anyone has held their breath underwater is over 24.5 minutes.',
+ 'The opposite of "sparkle" is "darkle."',
+ 'Most common girl name is Maria and most common boy name is Mohammed.',
+ 'The world Record for the longest personal name is held by Hubert Blaine Wolfe­schlegel­stein­hausen­berger­dorff Sr., whose name is 747 characters long. Although he went by Hubert, that was actually the eighth name in the list. He had a name for each letter of the alphabet, followed by a 597-character surname.',
+ 'Every individual has a unique tongue print. Like fingerprints, your tongue print can be used to identify you.',
+ 'Beards are the fastest growing hairs on the human body. If the average man never trimmed his beard, it would grow to nearly 30 feet long in his lifetime.',
+ 'Your ears never stop growing.',
+ 'You produce about 40,000 litres of spit in your lifetime.',
+ 'Babies only blink once or twice a minute, while adults average 10 times a minute.',
+ '“The Lion King” reigns as the highest-grossing Broadway musical, earning nearly $2 billion since its 1997 debut.',
+ 'The highest recorded fever ever was 115.7 degrees Fahrenheit (46.5°C) in 1980.',
+ 'The scientific name for stomach growls is “borborygmus.”',
+ 'Your brain is constantly eating itself. This process is called phagocytosis, where cells envelop and consume smaller cells or molecules to remove them from the system.',
+ 'The largest piece of fossilised dinosaur poo was discovered in 2020 and measures 67.5 centimetres long and up to 15.7 centimetres wide.',
+ 'Mike the Headless Chicken was a chicken that lived for 18 months after he was beheaded, surviving because most of his brain stem remained intact, and a blood clot prevented him from bleeding to death.',
+ 'The fear of long words is called Hippopotomonstrosesquippedaliophobia.',
+ "The world's oldest dog is a purebred Rafeiro do Alentejo named Bobi. Bobi lived to be 31 years and 165 days old and died.",
+ 'The happiest country on Earth in 2025 is Finland, which has maintained this title for the eighth consecutive year according to the World Happiness Report.',
+ 'In 2017, A man in China ended up having to undergo major surgery after being unable to poop for 22 years.',
+ 'Most ginger cats are male. This is because the ginger gene is found on the X chromosome, meaning female cats would require two copies of the gene to become ginger whilst males only need one.',
+ 'Murder rates rise in summer. In the US, murder rates reportedly rise by 2.7 per cent over the summer.'
+
 ];
 
 
