@@ -239,7 +239,7 @@ let rFactsSup=
  'The fear of long words is called Hippopotomonstrosesquippedaliophobia.',
  "The world's oldest dog is a purebred Rafeiro do Alentejo named Bobi. Bobi lived to be 31 years and 165 days old and died.",
  'The happiest country on Earth in 2025 is Finland, which has maintained this title for the eighth consecutive year according to the World Happiness Report.',
- 'In 2017, A man in China ended up having to undergo major surgery after being unable to poop for 22 years.',
+ 'In 2017, a man in China ended up having to undergo major surgery after being unable to poop for 22 years.',
  'Most ginger cats are male. This is because the ginger gene is found on the X chromosome, meaning female cats would require two copies of the gene to become ginger whilst males only need one.',
  'Murder rates rise in summer. In the US, murder rates reportedly rise by 2.7 per cent over the summer.'
 
