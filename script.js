@@ -237,7 +237,7 @@ let rFactsSup=
  'The largest piece of fossilised dinosaur poo was discovered in 2020 and measures 67.5 centimetres long and up to 15.7 centimetres wide.',
  'Mike the Headless Chicken was a chicken that lived for 18 months after he was beheaded, surviving because most of his brain stem remained intact, and a blood clot prevented him from bleeding to death.',
  'The fear of long words is called Hippopotomonstrosesquippedaliophobia.',
- "The world's oldest dog is a purebred Rafeiro do Alentejo named Bobi. Bobi lived to be 31 years and 165 days old and died.",
+ "The world's oldest dog was a purebred Rafeiro do Alentejo named Bobi. Bobi lived to be 31 years and 165 days old.",
  'The happiest country on Earth in 2025 is Finland, which has maintained this title for the eighth consecutive year according to the World Happiness Report.',
  'In 2017, a man in China ended up having to undergo major surgery after being unable to poop for 22 years.',
  'Most ginger cats are male. This is because the ginger gene is found on the X chromosome, meaning female cats would require two copies of the gene to become ginger whilst males only need one.',
